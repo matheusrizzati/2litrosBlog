@@ -213,6 +213,7 @@ footer nav a:hover{
         align-items: center;
         margin-top: 20px;
         padding-top: 20px;
+        margin-bottom: -20px;
         /* background-color: #FFF; */
     }
     header nav a{
@@ -269,5 +270,39 @@ footer nav a:hover{
 
     footer{
         padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 450px){
+    main h1{
+        font-size: 2.2rem;
+    }
+
+    main img{
+        height: 250px;
+    }
+
+    main p{
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    main h2{
+        font-size: 2rem;
+    }
+
+    header nav a{
+        font-size: 1.8rem
+    }
+    footer nav a{
+        font-size: 1.8rem
+    }
+
+    aside header{
+        font-size: 1.8rem;
+    }
+
+    aside h3{
+        font-size: 1.5rem
     }
 }
