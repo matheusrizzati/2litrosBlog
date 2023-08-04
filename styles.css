@@ -16,6 +16,16 @@ body{
     padding-top: 60px;
 }
 
+.wppBtn{
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    background: url('https://api.iconify.design/logos/whatsapp-icon.svg') no-repeat center center / contain;
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -172,3 +182,4 @@ footer nav a{
 footer nav a:hover{
     color: #b9b9b9;
 }
+
